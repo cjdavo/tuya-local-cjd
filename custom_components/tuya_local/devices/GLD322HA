@@ -2,7 +2,7 @@ name: Grid Connect GLD322HA RGBW lightbulb
 products:
   - id: w4isexnampjhqgwn
     model: GLD322HA
-    name: RGBW Lightbulb
+    name: GLD322HA 4
 entities:
   - entity: light
     dps:
