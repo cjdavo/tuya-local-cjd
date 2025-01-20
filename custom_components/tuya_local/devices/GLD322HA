@@ -65,6 +65,60 @@ entities:
         name: control_data
         type: string
         optional: true
+      - id: 29
+        name: debug_data
+        type: string
+        value: 
+        optional: true
+      - id: 30
+        name: rhythm_mode
+        type: string
+        value: AAAAAAA=
+        optional: true
+      - id: 31
+        name: sleep_mode
+        type: string
+        value: AAA=
+        optional: true
+      - id: 32
+        name: wakeup_mode
+        type: string
+        value: AAA=
+        optional: true
+      - id: 33
+        name: power_memory
+        type: string
+        value: AAEAAAPoA+gD6APo
+        optional: true
+      - id: 34
+        name: do_not_disturb
+        type: boolean
+        value: true
+        optional: true
+      - id: 35
+        name: switch_gradient
+        type: string
+        optional: true
+      - id: 41
+        name: remote_switch
+        type: boolean
+        value: true
+        optional: true
+      - id: 82
+        name: candle_mode_data
+        type: string
+        optional: true
+      - id: 209
+        name: cycle_timing
+        type: string
+        value: AAAA
+        optional: true
+      - id: 210
+        name: random_timing
+        type: string
+        value: AAAA
+        optional: true
+
   - entity: number
     translation_key: timer
     class: duration
@@ -80,60 +134,11 @@ entities:
         mapping:
           - scale: 60
             step: 60
-  - id: 29
-        name: debug_data
-        type: string
-        value: 
-        optional: true
-  - id: 30
-        name: rhythm_mode
-        type: string
-        value: AAAAAAA=
-        optional: true
-  - id: 31
-        name: sleep_mode
-        type: string
-        value: AAA=
-        optional: true
-  - id: 32
-        name: wakeup_mode
-        type: string
-        value: AAA=
-        optional: true
-  - id: 33
-        name: power_memory
-        type: string
-        value: AAEAAAPoA+gD6APo
-        optional: true
-  - id: 34
-        name: do_not_disturb
-        type: boolean
-        value: true
-        optional: true
-  - id: 35
-        name: switch_gradient
-        type: string
-        optional: true
-  - id: 41
-        name: remote_switch
-        type: boolean
-        value: true
-        optional: true
-  - id: 82
-        name: candle_mode_data
-        type: string
-        optional: true
-  - id: 209
-        name: cycle_timing
-        type: string
-        value: AAAA
-        optional: true
-  - id: 210
-        name: random_timing
-        type: string
-        value: AAAA
-        optional: true
+      
+  
+  
 
-
+      
+   
   
   
