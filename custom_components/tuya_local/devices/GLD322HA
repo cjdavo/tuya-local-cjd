@@ -8,9 +8,10 @@ entities:
     dps:
       - id: 20
         type: boolean
-        name: switch
+        name: switch_led
+        value: true
       - id: 21
-        name: color_mode
+        name: work_mode
         type: string
         mapping:
           - dps_val: white
@@ -22,13 +23,18 @@ entities:
           - dps_val: music
             value: Music
       - id: 22
-        name: brightness
+        name: bright_value
         type: integer
         range:
           min: 10
           max: 1000
+          value: white
+      - id: 23
+        name: temp_value
+        type: integer
+        value: 0
       - id: 24
-        name: rgbhsv
+        name: color_data
         type: hex
         format:
           - name: h
@@ -47,11 +53,12 @@ entities:
               min: 0
               max: 1000
       - id: 25
-        name: scene
+        name: scene_data
         type: string
         optional: true
+        value: 000e0d0000000000000000c80000
       - id: 27
-        name: music
+        name: music_data
         type: string
         optional: true
       - id: 28
@@ -73,3 +80,8 @@ entities:
         mapping:
           - scale: 60
             step: 60
+  - id: 29
+        name: debug_data
+        type: string
+        value: 
+        optional: true
