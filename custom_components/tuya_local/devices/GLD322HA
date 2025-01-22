@@ -1,7 +1,6 @@
 name: Grid Connect GLD322HA RGBW lightbulb
 products:
   - id: w4isexnampjhqgwn
-    
 entities:
   - entity: light
     dps:
@@ -9,9 +8,8 @@ entities:
         type: boolean
         name: switch
       - id: 21
-        name: effect
         type: string
-        optional: true
+        name: color_mode
         mapping:
           - dps_val: white
             value: white
@@ -19,12 +17,12 @@ entities:
             value: "off"
           - dps_val: scene
             value: Scene
-          - dps_val: null
-            value: "off"
-            hidden: true
+          - dps_val: music
+            value: music
       - id: 22
         name: brightness
         type: integer
+        optional: true
         range:
           min: 10
           max: 1000
@@ -62,33 +60,7 @@ entities:
             bytes: 2
             range:
               min: 0
-              max: 1000
-          
-      - id: 31
-        name: sleep_mode
-        type: string
-        value: AAA=
-        optional: true
-      - id: 32
-        name: wakeup_mode
-        type: string
-        value: AAA=
-        optional: true     
-      - id: 82
-        name: candle_mode_data
-        type: string
-        optional: true
-      - id: 209
-        name: cycle_timing
-        type: string
-        value: AAAA
-        optional: true
-      - id: 210
-        name: random_timing
-        type: string
-        value: AAAA
-        optional: true
-
+              max: 1000      
   - entity: number
     translation_key: timer
     class: duration
