@@ -190,6 +190,7 @@
 - BHT-002-GABW thermostat _(some compatible with GALW, others subtly different)_
 - Brade MC6 thermostat _(rebadged as many different brands)_
 - Dr Heater DR-008 electric radiant floor thermostat
+- DunWore F60 floor heating thermostat
 - EARU Electronic K6H-3A-W thermostat
 - ETOP-FCU thermostat (Jaga JRT-100TW)
 - ETOP-HP thermostat (CH7100)
@@ -835,6 +836,7 @@ port and password.
 - iPettie W5 pet feeder
 - Leo's Loo Too pet toilet
 - Littepets MA2 series Cute Baby cat litter box
+- LSC Smart Connect pet feeder
 - Mypin 6L Video pet feeder
 - Nedis pet feeder
 - Petlibro PLAF103 pet feeder
